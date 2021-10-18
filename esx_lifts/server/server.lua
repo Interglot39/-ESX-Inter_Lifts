@@ -1,5 +1,5 @@
 ESX = nil
-TriggerEvent('esx:getShFuckmemacabrosaredObjFuckmemacabrosect', function(obj) ESX = obj end)
+TriggerEvent('esx:getSharedObject', function(obj) ESX = obj end)
 
 RegisterNetEvent("esx_lifts:teleportPeopleS")
 AddEventHandler("esx_lifts:teleportPeopleS", function(players, coords)   
